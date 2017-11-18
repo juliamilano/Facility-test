@@ -1,0 +1,192 @@
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px){
+     
+}
+
+ 
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px){
+   /*Шапка*/
+    .head-logo-company-name h1,
+    .head-logo-company-name h1 a{
+        font-size: 16px;
+        padding-left: 10px;
+    }
+    ul.head-nav-menu li{
+      font-size: 12px;
+    }
+    .icon-logo img{
+        width: 65px;
+        height: 55px;
+    }
+
+    /*главный слайдер*/
+    .block-one-slider .item .text{
+        padding-top: 190px;
+    }
+    .block-one-slider .item .text h1{
+        font-size: 35px;
+        
+    }
+    .all-word{
+       height: 380px;
+        padding: 0px;
+        background: transparent;
+        
+    }
+    .block-one-slider .owl-dots{
+        bottom: 20px;
+     }
+    .block-one-slider .owl-dots .owl-dot{
+        width:10px;
+        height: 10px;
+        
+    }
+    /*блок с мини слайдером*/
+    .block-mini-second-slider .owl-nav{
+        width: 130px;
+        margin: 30px auto;
+    }
+    .block-mini-second-slider .owl-nav div{
+        position: static;
+        display: inline-block;
+    }
+    .block-mini-second-slider .owl-prev{
+        margin-right: 30px;
+    }
+
+    .all-column{
+        font-size: 12px;  
+        flex-wrap: nowrap;
+    }
+    .all-column p{
+       margin-right: 0px;
+       line-height: 1.2em;
+    }
+    .article-info-block{
+        font-size: 14px;  
+    }
+}
+
+
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px){
+   .icon-logo{
+       text-align: center;
+   }
+   .head-logo-company-name h1,.head-logo-company-name h1 a{
+       text-align: center;
+       padding-left: 0;
+   }
+    ul.head-nav-menu{
+        padding-top: 0;
+        text-align: center;
+    }
+    .all-column{
+        font-size: 12px;  
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+    }
+    .all-column p{
+        max-width: 300px;
+        margin-right: 0px;
+    }
+   
+}
+
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px){
+    .block-one-slider .item .text h1{
+        font-size: 30px;
+    }
+    .block-one-slider .item .text p{
+        font-size: 12px;
+        text-transform: capitalize;
+        max-width: 350px;
+    }
+    .block-one-slider .owl-dots{
+        width: 20%;
+        text-align: center;
+        }
+}
+
+
+@media only screen and (max-width : 340px){
+
+}
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px){
+    header .icon-logo{
+        margin-bottom: 50px;
+    }
+    .head-logo-company-name{
+        display: none;
+    }
+    ul.head-nav-menu li{
+        height: 50px;
+        display: block;
+        padding: 10px 8px;
+        margin-right: 0px;
+    }
+    .head-main-slide,
+    .column-info{
+        visibility: hidden;
+    }
+    .hidden-for-mobile-row-art{
+        display: none;
+    }
+    .mobile-hidden-elements{
+        display: block;
+    }
+    .map,
+    .footer-map-block{
+      height: 350px;
+    }
+}
+
+
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px){
+
+}
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px){
+
+}
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px){
+
+}
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px){
+
+}
+	/**/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px){
+
+}
+	/**/
+
